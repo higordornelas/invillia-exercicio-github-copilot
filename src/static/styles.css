@@ -83,6 +83,18 @@ section h3 {
 .activity-card ul li {
   margin-bottom: 5px;
   color: #555;
+  font-size: 14px; /* Adjust font size for better readability */
+}
+
+.activity-card p strong {
+  color: #1a237e; /* Highlight strong text for better emphasis */
+}
+
+/* Add hover effect for activity cards */
+.activity-card:hover {
+  background-color: #e3f2fd;
+  border-color: #90caf9;
+  transition: background-color 0.3s, border-color 0.3s;
 }
 
 .form-group {
