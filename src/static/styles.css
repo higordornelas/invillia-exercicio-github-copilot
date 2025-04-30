@@ -74,6 +74,29 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.activity-card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.activity-card ul li {
+  margin-bottom: 5px;
+  color: #555;
+  font-size: 14px; /* Adjust font size for better readability */
+}
+
+.activity-card p strong {
+  color: #1a237e; /* Highlight strong text for better emphasis */
+}
+
+/* Add hover effect for activity cards */
+.activity-card:hover {
+  background-color: #e3f2fd;
+  border-color: #90caf9;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
@@ -141,4 +164,17 @@ footer {
   margin-top: 30px;
   padding: 20px;
   color: #666;
+}
+
+.activity-card ul.participants {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: circle;
+}
+
+.activity-card ul.participants li {
+  margin-bottom: 5px;
+  color: #1a237e; /* Destaque para os nomes dos participantes */
+  font-size: 14px;
+  font-style: italic; /* Diferenciação visual */
 }
